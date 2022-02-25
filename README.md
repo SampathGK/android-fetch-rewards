@@ -12,7 +12,7 @@ android app which fetches data from REST client and displays it
 - Min API       : API 21
 
 ## Instructions to Run
-- open Application folder in Android Studio to open the project
+- open application folder named FetchRewardsExercise in Android Studio to open the project
 
 ## Submission Details
 - Name : Sampath G K
