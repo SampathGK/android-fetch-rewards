@@ -9,9 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.fetchrewardsexercise.R;
 import com.example.fetchrewardsexercise.data.Item;
-
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 /*
 Custom Adapter for the recycler view
@@ -47,12 +45,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         return itemList.size();
     }
 
-    /*
-        This class creates a wrapper object around a view that contains the layout for
-         an individual item in the list. It also implements the onClickListener so each ViewHolder in the list is clickable.
-        It's onclick method will call the onClick method of the RVClickListener defined in
-        the main activity.
-     */
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         public TextView id;

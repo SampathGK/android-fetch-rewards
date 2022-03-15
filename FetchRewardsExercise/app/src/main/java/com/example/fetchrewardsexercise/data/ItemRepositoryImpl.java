@@ -60,9 +60,9 @@ public class ItemRepositoryImpl{
                                     itemDao.deleteAll();
                                     //insert into db
                                     itemDao.insertAll(response.body());
-                                    //return formatted/sorted data from db
-                                    items[0].postValue(itemDao.getAll());
                                 }
+                                //return formatted/sorted data from db
+                                items[0].postValue(itemDao.getAll());
                             }catch (Exception e){
                                 Log.i("Model", "Database exception");
                                 e.printStackTrace();
